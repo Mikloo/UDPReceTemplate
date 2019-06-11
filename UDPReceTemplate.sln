@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPReceTemplate", "UDPReceTemplate\UDPReceTemplate.csproj", "{10EE4D35-3F9B-4966-8BF5-906B3A97B13D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPSenderTemplate", "UDPSenderTemplate\UDPSenderTemplate.csproj", "{CF2D4897-89EF-4C4F-B0B4-F230CCD66078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{10EE4D35-3F9B-4966-8BF5-906B3A97B13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10EE4D35-3F9B-4966-8BF5-906B3A97B13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10EE4D35-3F9B-4966-8BF5-906B3A97B13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2D4897-89EF-4C4F-B0B4-F230CCD66078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2D4897-89EF-4C4F-B0B4-F230CCD66078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2D4897-89EF-4C4F-B0B4-F230CCD66078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2D4897-89EF-4C4F-B0B4-F230CCD66078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
