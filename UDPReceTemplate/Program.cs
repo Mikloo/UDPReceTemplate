@@ -15,6 +15,7 @@ namespace UDPReceTemplate
             UdpClient udpServer = new UdpClient(Port);
 
             //IPEndpoint er den ipadresse der bliver sendt fra, altså den source der broadcaster
+            //kan være alle ip adresser
             IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, Port);
 
             try
